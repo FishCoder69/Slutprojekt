@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+    background-color: #1C1726;
+    color: black;
+    }
+a:link, .logo:visited {
+  text-decoration: none;
+}
+
+.navbar{
+  list-style-type:none ;
+  margin: 0;
+  background-color: #352c47;
+  padding: 0.3%;
+}
+.meny{
+  margin: 0%;
+}
+.header{
+  position: fixed;
+}
+.logo{
+  color: rgba(97, 93, 74, 0.973);
+  border-style: solid;
+  border-width: 7px;
+  width: fit-content;
+  padding: 7px;
+  font-size: 40px;
+  font-family: monospace;
+  background-color: #BDFF00;
+  border-radius: 15%;
+  margin-right: 40px;
+}
+.alla_spel{
+  color: #BDFF00;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+li{
+  display: inline;
+  margin-right: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #352c47;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #BDFF00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #352c47;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+    <script src="JS/dom.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>alla spel</title>
+</head>
+<body>
+    <header>
+        <nav>
+    <div class="meny">
+        <ul class="navbar">
+            <li><a class="logo" href="index.html"><b>Stupid Games</b></a></li>
+            <li><a class="alla_spel" href="länkar/alla_spel.html">Alla spel</a></li>
+            <li><a class="hem_spel alla_spel" href="länkar/dåliga_spel.html">Dåliga spel</a></li>
+            <li><a class="one alla_spel" href="länkar/1player_games.html">1 Player Games</a></li>
+            <li><a class="two alla_spel" href="länkar/2player_games.html">2 Player Games</a></li>
+            <li><a class="roliga alla_spel" href="länkar/roliga_spel.html">Roliga Spel</a></li>
+            <li class=dropdown>
+                <a class="dropbtn alla_spel">Genres</a>
+                <div class="dropdown-content">
+                    <a class="alla_spel genres" href="länkar/Genres/action.html">Action &#128163</a>
+                    <a class="alla_spel genres"href="länkar/Genres/adventrues.html">Adventures &#128481</a>
+                    <a class="alla_spel genres"href="länkar/Genres/card_games.html">Card Games &#9824</a>
+                    <a class="alla_spel genres"href="länkar/Genres/puzzle.html">Puzzle &#129513</a>
+                    <a class="alla_spel genres"href="länkar/Genres/Shooting.html">Shooting &#128299</a>
+                    <a class="alla_spel genres"href="länkar/Genres/Sports.html">Sports &#9917</a>
+                    <a class="alla_spel genres"href="länkar/Genres/Vehicles.html">Vehicles &#128663</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+</header>
+</body>
+</html>
